@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marvel Universe Analytics Dashboard</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link
+	href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap"
+	rel="stylesheet">
+<style>
+body {
+	font-family: 'Comic Neue', cursive;
+	background-color: #f5fffa;
+	color: #ffffff;
+}
+
+.container {
+	max-width: 850px;
+}
+
+.card {
+	transition: transform .2s;
+	margin: 0 auto;
+	border-radius: 10px; /* add this property to make the edges rounded */
+}
+
+.card-title {
+	min-height: 100px;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+}
+
+.jumbotron:hover {
+	transform: scale(1.05);
+	/* add this property to increase the size of the box on hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	/* add this property to add a shadow effect on hover */
+	cursor: pointer;
+	/* add this property to change the cursor to a pointer on hover */
+}
+
+.jumbotron {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	line-height: 1.5;
+	background-color: #623434;
+	color: #ffffff;
+	background-image: linear-gradient(315deg, #dc3545 0%, #334348 74%);
+	transition: transform .2s;
+}
+
+.jumbotron h3.display-4 {
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.jumbotron p.lead {
+	color: #f5fffa;
+}
+
+.jumbotron a.btn.btn-primary {
+	background-color: #DC3535;
+	border-color: #DC3535;
+	font-size: 0.8rem;
+	margin-top: auto;
+}
+
+.jumbotron a.btn.btn-primary:hover {
+	background-color: #DC3535;
+	border-color: #DC3535;
+	font-size: 0.8rem;
+	margin-top: auto;
+}
+
+.btn-primary {
+	background-color: #DC3535;
+	border-color: #DC3535;
+	font-size: 0.8rem;
+}
+
+.btn-primary:hover {
+	background-color: #DC3535;
+	border-color: #DC3535;
+	font-size: 0.8rem;
+}
+
+.btn-primary:active, .btn-primary:focus {
+	background-color: #DC3535;
+	border-color: #DC3535;
+	font-size: 0.8rem;
+}
+
+a.btn-primary:not(:disabled):not(.disabled):active {
+	background-color: #DC3535;
+	border-color: #DC3535;
+	box-shadow: 0 0 0 0 #DC3535 !important
+}
+
+.card:first-of-type {
+	background-color: #232526;
+	color: #ffffff;
+}
+
+.jumbotron {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.card {
+	transition: transform .2s;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.container, .jumbotron, .display-4, .lead {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+.display-4 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.container.my-5 {
+	background-color: #000000;
+}
+
+.card-img-top {
+	display: block;
+	/* Ensures that the image is treated as a block element */
+	margin: auto; /* Centers the image horizontally */
+	max-width: 30%;
+	max-height: 20%;
+	/* Limits the image width to 100% of the parent element */
+	height: auto;
+	/* Allows the image to resize proportionally based on the width */
+}
+
+.text-content {
+	min-height: 130px;
+}
+</style>
+</head>
+<body>
+
+	<div class="container my-5">
+		<img src="images/marvel1.PNG" class="card-img-top"
+			alt="Image description">
+
+		<div class="jumbotron text-center">
+			<h3 class="display-4">Marvel Universe Analytics Dashboard</h3>
+			<p class="lead">Welcome to the Marvel Universe Analytics
+				Dashboard! This powerful tool is designed to help Marvel
+				enthusiasts, writers, and production teams make data-driven
+				decisions. With interactive visualizations and comprehensive data
+				analysis, this dashboard provides valuable insights into the Marvel
+				Universe's characters, stories, and trends.</p>
+			<a href="https://www.marvel.com/" class="btn btn-primary">Learn
+				More</a>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-4 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+								fill="currentColor" class="bi bi-pie-chart-fill"
+								viewBox="0 0 16 16">
+  <path
+									d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l-5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z" />
+</svg>
+							Marvel Insights Dashboard: A Data-Driven Tool for Marvel
+							Enthusiasts
+						</h5>
+						<div class="text-content">It provides visualizations
+							analyzing ratings from various sources to determine the most
+							popular Marvel movies.</div>
+						<a
+							href="https://public.tableau.com/app/profile/sowmya.kuruba/viz/MARVELFANATICD/Dashboard1?publish=yes"
+							class="btn btn-primary" target="_blank">Go to Dashboard</a>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="col-md-4 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+								fill="currentColor" class="bi bi-bar-chart-fill"
+								viewBox="0 0 16 16">
+  <path
+									d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z" />
+</svg>
+							Empowering Writers with Actionable Analytics through
+							Visualization
+						</h5>
+						<div class="text-content">This Dashboard is a
+							tool that provides writers with actionable analytics on fan's
+							choices for existing Marvel stories to create stories that better
+							resonate with their audience</div>
+						<a href="Survey_1.html" class="btn btn-primary" target="_blank">Go
+							to Dashboard</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mb-4">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+								fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd"
+									d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
+</svg>
+							Visualizing Analytics for Production Planning and Decision Making
+						</h5>
+						<div class="text-content">It is a data visualization tool
+							that provides valuable insights for marketing and production
+							teams based on fan preferences and behaviors.</div>
+
+						<a href="Survey_2.html" class="btn btn-primary" target="_blank">Go to
+							Dashboard</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
